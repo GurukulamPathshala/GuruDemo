@@ -958,6 +958,22 @@ body {
   #MEDIA QUERIES
 \*-----------------------------------*/
 
+@media (max-width: 780px) {
+  .header .btn {
+    display: flex;
+    padding: 3px 6px;
+    font-size: 3vw;
+  }
+  .header .btn span{
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+}
+
+
+
+
 /**
  * responsive for large than 575px screen
  */
