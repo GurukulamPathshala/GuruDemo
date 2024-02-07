@@ -1093,6 +1093,10 @@ body {
 .kard-image {
   border-radius: 10px;
 }
+.kard-image:hover{
+  scale: 1.05;
+  transition: all 0.4s;
+}
 
 .kard-text {
   padding: 20px 30px;
@@ -1104,8 +1108,13 @@ body {
   color: #EE4962;
   font-weight: 600;
 }
-.kard-text h3{
+.kard-text h3 a{
   white-space: normal;
+}
+
+.kard-text h3 a:hover{
+  color: var(--kappel);
+  transition: all 0.3s;
 }
 
 .kard-text div {
