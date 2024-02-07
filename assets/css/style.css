@@ -1087,6 +1087,10 @@ body {
 
 
 
+
+
+
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -1101,6 +1105,9 @@ body {
   .header .btn span {
     white-space: nowrap;
     text-align: center;
+  }
+  #title-subtitle{
+    font-size: 1.8rem;
   }
 
 }
@@ -1155,7 +1162,9 @@ body {
   .hero-banner {
     grid-template-columns: 1fr 0.9fr;
   }
-
+  #title-subtitle{
+    font-size: 2.2rem;
+  }
 
 
   /**
@@ -1277,7 +1286,11 @@ body {
   }
 
   .hero-text {
+    font-size: 2.2rem;
     margin-block-end: 30px;
+  }
+  #title-subtitle{
+    font-size: 2.2rem;
   }
 
   .hero-banner {
@@ -1404,6 +1417,10 @@ body {
   .hero .section-title,
   .hero-text {
     text-align: left;
+  }
+
+  .hero-text {
+    font-size: 2.2rem;
   }
 
   .hero .btn {
@@ -1557,7 +1574,7 @@ body {
   }
 
   .hero .container {
-    gap: 80px;
+    gap: 20px;
   }
 
   .hero-shape-2 {
@@ -1565,6 +1582,12 @@ body {
     z-index: -1;
   }
 
+  #title-heading {
+    font-size: 120px;
+  }
+  #title-subtitle {
+    font-size: 30px;
+  }
 
 
   /**
