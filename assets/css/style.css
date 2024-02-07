@@ -1084,9 +1084,71 @@ body {
 }
 
 
+.kard {
+  background-color: #FFFFFF;
+  width: 370px;
+  border-radius: 10px;
+}
+
+.kard-image {
+  border-radius: 10px;
+}
+
+.kard-text {
+  padding: 20px 30px;
+  position: relative;
+}
+
+.kard-text data {
+  margin-top: 5px;
+  color: #EE4962;
+  font-weight: 600;
+}
+.kard-text h3{
+  white-space: normal;
+}
+
+.kard-text div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.scroller{
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.scroller-content{
+  display: inline-block;
+  animation-name: scrollerImage;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.scroller-content .kard{
+  display: inline-block;
+  margin-right: 30px;
+}
 
 
+.scroller::-webkit-scrollbar {
+  display: none;
+}
 
+
+@keyframes scrollerImage {
+
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+
+}
 
 
 
@@ -1106,7 +1168,8 @@ body {
     white-space: nowrap;
     text-align: center;
   }
-  #title-subtitle{
+
+  #title-subtitle {
     font-size: 1.8rem;
   }
 
@@ -1162,7 +1225,8 @@ body {
   .hero-banner {
     grid-template-columns: 1fr 0.9fr;
   }
-  #title-subtitle{
+
+  #title-subtitle {
     font-size: 2.2rem;
   }
 
@@ -1289,7 +1353,8 @@ body {
     font-size: 2.2rem;
     margin-block-end: 30px;
   }
-  #title-subtitle{
+
+  #title-subtitle {
     font-size: 2.2rem;
   }
 
@@ -1585,6 +1650,7 @@ body {
   #title-heading {
     font-size: 120px;
   }
+
   #title-subtitle {
     font-size: 30px;
   }
