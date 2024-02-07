@@ -1084,6 +1084,12 @@ body {
 }
 
 
+
+::selection{
+  color: #EEEBE5;
+  background-color: var(--kappel)
+}
+
 .kard {
   background-color: #FFFFFF;
   width: 370px;
@@ -1125,6 +1131,7 @@ body {
 }
 
 .scroller{
+  margin-top: 50px;
   white-space: nowrap;
   overflow-x: scroll;
 }
