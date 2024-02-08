@@ -1101,9 +1101,8 @@ body {
 }
 
 .kard-image:hover {
-  scale: 0.95;
+  scale: 1.05;
   transition: all 0.4s;
-  opacity: 0.8;
 }
 
 .kard-text {
@@ -1143,6 +1142,7 @@ body {
 }
 
 .scroller-content {
+  display: flex;
   animation-name: scrollerImage;
   animation-duration: 30s;
   animation-timing-function: linear;
@@ -1150,7 +1150,6 @@ body {
 }
 
 .scroller-content .kard {
-  display: inline-block;
   margin-right: 15px;
   margin-left: 15px;
 }
