@@ -1085,7 +1085,7 @@ body {
 
 
 
-::selection{
+::selection {
   color: #EEEBE5;
   background-color: var(--kappel)
 }
@@ -1099,9 +1099,11 @@ body {
 .kard-image {
   border-radius: 10px;
 }
-.kard-image:hover{
-  scale: 1.05;
+
+.kard-image:hover {
+  scale: 0.95;
   transition: all 0.4s;
+  opacity: 0.8;
 }
 
 .kard-text {
@@ -1114,13 +1116,15 @@ body {
   color: #EE4962;
   font-weight: 600;
 }
-.kard-text h3 a{
+
+.kard-text h3 a {
   white-space: normal;
 }
 
-.kard-text h3 a:hover{
+.kard-text h3 a:hover {
   color: var(--kappel);
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .kard-text div {
@@ -1130,22 +1134,25 @@ body {
   margin-top: 10px;
 }
 
-.scroller{
+.scroller {
   margin-top: 50px;
   white-space: nowrap;
   overflow-x: scroll;
+  display: flex;
+
 }
 
-.scroller-content{
-  display: inline-block;
+.scroller-content {
   animation-name: scrollerImage;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.scroller-content .kard{
+
+.scroller-content .kard {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 
@@ -1156,11 +1163,11 @@ body {
 
 @keyframes scrollerImage {
 
-  from {
+  0% {
     transform: translateX(0);
   }
 
-  to {
+  100% {
     transform: translateX(-100%);
   }
 
